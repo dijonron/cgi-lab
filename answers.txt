@@ -1,0 +1,8 @@
+1. We can inspect the environment variables using the os library: os.environ will access the variables
+2. The environment variable QUERY_STRING contains the query parameter data.
+3. The environment variable HTTP_USER_AGENT contains information about the user's browser.
+4. When using the "POST" method, the posted data is sent as a seperate message instead of a string after the query (?) in the URL [https://www.tutorialspoint.com/python/python_cgi_programming.htm]
+5. Set-Cookie: <cookie-name>=<cookie-value> [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie]
+6. The environment variable HTTP_COOKIE returns the cookies from the browser
+7. A cookie is basically just a piece of data that can be sent over HTTP between the user and the server. They can store small bits of user data that can be sent to the server to be used by it, e.g. user can set a preference which can be saved as a cookie so the next time they visit the site the cookie will be sent and the server can use that to load that preference
+8. https://github.com/dijonron/cgi-lab
